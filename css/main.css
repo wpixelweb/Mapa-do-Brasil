@@ -1,0 +1,139 @@
+@charset "utf-8";
+
+h1, h2, h3, h4, h5, h6{
+	margin-bottom: 10px;
+	clear: both;
+}
+
+#main{
+	padding: 40px 0 40px 0;
+}
+
+p{
+	margin-bottom: 10px;
+}
+
+.sidebar-none .content{
+	width: 100%;
+}
+
+.sidebar-none .sidebar{
+	display: none;
+}
+
+.map-container iframe{
+	width: 100%;
+}
+
+#map_canvas_1 path{
+	stroke-width: 1; /* control the countries borders width */
+	stroke: #ffffff; /* choose a color for the border */
+	cursor: pointer; /* display the pointer when the map hovers the map. */
+}
+
+#map_canvas_1 path:not([fill^="transparent"]):hover{
+	fill: #8E2929;
+}
+
+#map_canvas_1 path:not([fill^="#ffffff"]):active{
+	fill: #8E2929;
+}
+
+hr{
+	border-color: rgba(142, 148, 152, 0.14) -moz-use-text-color -moz-use-text-color;
+	border-style: solid none none;
+	border-width: 1px medium medium;
+}
+
+#main-nav > li > a, #main-nav > li > a > span{
+	color: #323A45;
+	font: 16px/37px Helvetica, Arial, Verdana, sans-serif;
+	text-transform: uppercase;
+}
+
+hr{
+	border-bottom: 1px solid #f7f7f7;
+	border-style: solid none none;
+	border-width: 1px medium medium;
+}
+
+html, body, .wf-container > *, #main{
+	font: normal normal normal 14px / 22px Helvetica, Arial, Verdana, sans-serif;
+	word-spacing: normal;
+	color: #878c92;
+}
+
+#page{
+	background: #ffffff none repeat center top;
+	background-size: auto;
+}
+
+a {
+	color: #323a45;
+	text-decoration: underline;
+}
+
+a:hover {
+	color: #ed3237;
+	text-decoration: none;
+}
+
+h1{
+	color: #323a45;
+	font: normal normal normal 28px / 30px Helvetica, Arial, Verdana, sans-serif;
+	text-transform: uppercase;
+}
+
+h1 a, h1 a:hover {
+	color: #323a45;
+}
+
+h2 {
+	color: #323a45;
+	font: normal normal normal 20px / 22px Helvetica, Arial, Verdana, sans-serif;
+	text-transform: none;
+}
+
+h2 a, h2 a:hover{
+	color: #323a45;
+}
+
+h3, #main{
+ color: #323a45;
+ font: normal normal normal 16px / 18px Helvetica, Arial, Verdana, sans-serif;
+ text-transform: none;
+}
+
+h3 a, h3 a:hover {
+	color: #323a45;
+}
+
+h4{
+	color: #323a45;
+	font: normal normal normal 17px / 20px Helvetica, Arial, Verdana, sans-serif;
+	text-transform: uppercase;
+}
+
+h4 a, h4 a:hover{
+	color: #323a45;
+}
+
+h5{
+	color: #323a45;
+	font: normal normal normal 18px / 20px  Helvetica, Arial, Verdana, sans-serif;
+	text-transform: none;
+}
+
+h5 a, h5 a:hover {
+	color: #323a45;
+}
+
+h6{
+	color: #323a45;
+	font: normal normal normal 14px / 22px  Helvetica, Arial, Verdana, sans-serif;
+	text-transform: none;
+}
+
+h6 a, h6 a:hover{
+	color: #323a45;
+}

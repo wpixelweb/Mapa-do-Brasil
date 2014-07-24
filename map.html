@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html class="no-js" lang="pt-br">
+<head>
+<meta charset="UTF-8" />
+<title>Mapa</title>
+<link rel="stylesheet" href="css/tipTip.css" type="text/css" media="all" />
+<link rel="stylesheet" href="css/wireframe.css" type="text/css" media="all" />
+<link rel="stylesheet" href="css/main.css" type="text/css" media="all" />
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/jsapi.js"></script>
+</head>
+<body>
+<div id="page">
+  <div id="main" class="sidebar-none">
+    <div class="wf-wrap">
+      <div class="wf-container-main">
+        <div id="content" class="content" role="main">
+          <div class="row wf-container ">
+            <div class="wf-cell wf-span-6 column column_container "> 
+              <script type="text/javascript">var ivalue_1 = new Array();google.load('visualization', '1', {packages: ['geochart']});function drawVisualization() {
+				var data = new google.visualization.DataTable();
+				data.addColumn('string', 'Country'); // Implicit domain label col.
+				data.addColumn('number', 'Value'); // Implicit series 1 data col.
+				data.addColumn({type:'string', role:'tooltip'}); 
+				data.addRows([[{v:"Paraná",f:"Paraná"},1,"Paraná"]]);
+				ivalue_1['Paraná'] = '<h3>Paraná</h3><p><strong>NOME</strong><br />TEL<br />END<br /></p>';
+					data.addRows([[{v:"Rio Grande do Sul",f:"Rio Grande do Sul"},2,"Rio Grande do Sul"]]);
+				ivalue_1['Rio Grande do Sul'] = '<h3>Rio Grande do Sul</h3><p><strong>NOME</strong><br />TEL<br />END<br /></p>';
+					data.addRows([[{v:"Santa Catarina",f:"Santa Catarina"},3,"Santa Catarina"]]);
+				ivalue_1['Santa Catarina'] = '<h3>Santa Catarina</h3><p><strong>NOME</strong><br />TEL<br />END<br /></p>';
+					data.addRows([[{v:"São Paulo",f:"São Paulo"},4,"São Paulo"]]);
+				ivalue_1['São Paulo'] = '<h3>São Paulo</h3><p><strong>NOME</strong><br />TEL<br />END<br /></p>';
+					data.addRows([[{v:"Rio de Janeiro",f:"Rio de Janeiro"},5,"Rio de Janeiro"]]);
+				ivalue_1['Rio de Janeiro'] = '<h3>Rio de Janeiro</h3><p><strong>NOME</strong><br />TEL<br />END<br /></p>';
+					data.addRows([[{v:"Minas Gerais",f:"Minas Gerais"},6,"Minas Gerais"]]);
+				ivalue_1['Minas Gerais'] = '<h3>Minas Gerais</h3><p><strong>NOME</strong><br />TEL<br />END<br /></p>';
+					data.addRows([[{v:"Mato Grosso",f:"Mato Grosso"},7,"Mato Grosso"]]);
+				ivalue_1['Mato Grosso'] = '<h3>Mato Grosso</h3><p><strong>NOME</strong><br />TEL<br />END<br /></p>';
+					data.addRows([[{v:"Mato Grosso do Sul",f:"Mato Grosso do Sul"},8,"Mato Grosso do Sul"]]);
+				ivalue_1['Mato Grosso do Sul'] = '<h3>Mato Grosso do Sul</h3><p><strong>NOME</strong><br />TEL<br />END<br /></p>';
+					data.addRows([[{v:"Goiás",f:"Goiás"},9,"Goiás"]]);
+				ivalue_1['Goiás'] = '<h3>Goiás</h3><p><strong>NOME</strong><br />TEL<br />END<br /></p>';
+					data.addRows([[{v:"Bahia",f:"Bahia"},10,"Bahia"]]);
+				ivalue_1['Bahia'] = '<h3>Bahia</h3><p><strong>NOME</strong><br />TEL<br />END<br /></p>';
+					data.addRows([[{v:"Pernambuco",f:"Pernambuco"},11,"Pernambuco"]]);
+				ivalue_1['Pernambuco'] = '<h3>Pernambuco</h3><p><strong>NOME</strong><br />TEL<br />END<br /></p>';
+					data.addRows([[{v:"Paraíba",f:"Paraíba"},12,"Paraíba"]]);
+				ivalue_1['Paraíba'] = '<h3>Paraíba</h3><p><strong>NOME</strong><br />TEL<br />END<br /></p>';
+					data.addRows([[{v:"Distrito Federal",f:"Distrito Federal"},13,"Distrito Federal"]]);
+				ivalue_1['Distrito Federal'] = '<h3>Distrito Federal</h3><p><strong>NOME</strong><br />TEL<br />END<br /></p>';
+					data.addRows([[{v:"Ceará",f:"Ceará"},14,"Ceará"]]);
+				ivalue_1['Ceará'] = '<h3>Ceará</h3><p><strong>NOME</strong><br />TEL<br />END<br /></p>';
+					data.addRows([[{v:"Piauí",f:"Piauí"},15,"Piauí"]]);
+				ivalue_1['Piauí'] = '<h3>Piauí</h3><p><strong>NOME</strong><br />TEL<br />END<br /></p>';
+					data.addRows([[{v:"Maranhão",f:"Maranhão"},16,"Maranhão"]]);
+				ivalue_1['Maranhão'] = '<h3>Maranhão</h3><p><strong>NOME</strong><br />TEL<br />END<br /></p>';
+					data.addRows([[{v:"Pará",f:"Pará"},17,"Pará"]]);
+				ivalue_1['Pará'] = '<h3>Pará</h3><p><strong>NOME</strong><br />TEL<br />END<br /></p>';
+					data.addRows([[{v:"Amazonas",f:"Amazonas"},18,"Amazonas"]]);
+				ivalue_1['Amazonas'] = '<h3>Amazonas</h3><p><strong>NOME</strong><br />TEL<br />END<br /></p>';
+					data.addRows([[{v:"Sergipe",f:"Sergipe"},19,"Sergipe"]]);
+				ivalue_1['Sergipe'] = '<h3>Sergipe</h3><p><strong>NOME</strong><br />TEL<br />END<br /></p>';
+					data.addRows([[{v:"Alagoas",f:"Alagoas"},20,"Alagoas"]]);
+				ivalue_1['Alagoas'] = '<h3>Alagoas</h3><p><strong>NOME</strong><br />TEL<br />END<br /></p>';
+					data.addRows([[{v:"Rio Grande do Norte",f:"Rio Grande do Norte"},21,"Rio Grande do Norte"]]);
+				ivalue_1['Rio Grande do Norte'] = '<h3>Rio Grande do Norte</h3><p><strong>NOME</strong><br />TEL<br />END<br /></p>';
+					data.addRows([[{v:"Amapá",f:"Amapá"},22,"Amapá"]]);
+				ivalue_1['Amapá'] = '<h3>Amapá</h3><p><strong>NOME</strong><br />TEL<br />END<br /></p>';
+					data.addRows([[{v:"Acre",f:"Acre"},23,"Acre"]]);
+				ivalue_1['Acre'] = '<h3>Acre</h3><p><strong>NOME</strong><br />TEL<br />END<br /></p>';
+					data.addRows([[{v:"Rondônia",f:"Rondônia"},24,"Rondônia"]]);
+				ivalue_1['Rondônia'] = '<h3>Rondônia</h3><p><strong>NOME</strong><br />TEL<br />END<br /></p>';
+					data.addRows([[{v:"Tocantins",f:"Tocantins"},25,"Tocantins"]]);
+				ivalue_1['Tocantins'] = '<h3>Tocantins</h3><p><strong>NOME</strong><br />TEL<br />END<br /></p>';
+					data.addRows([[{v:"Espírito Santo",f:"Espírito Santo"},26,"Espírito Santo"]]);
+				ivalue_1['Espírito Santo'] = '<h3>Espírito Santo</h3><p><strong>NOME</strong><br />TEL<br />END<br /></p>';
+					data.addRows([[{v:"Roraima",f:"Roraima"},27,"Roraima"]]);
+				ivalue_1['Roraima'] = '<h3>Roraima</h3> <p><strong>NOME</strong><br />TEL<br />END<br /></p>';
+				var options = {   colorAxis: {minValue: 1, maxValue:27,  colors: ['#C52F33','#C52F33','#C52F33','#C52F33','#C52F33','#C52F33','#C52F33','#C52F33','#C52F33','#C52F33','#C52F33','#C52F33','#C52F33','#C52F33','#C52F33','#C52F33','#C52F33','#C52F33','#C52F33','#C52F33','#C52F33','#C52F33','#C52F33','#C52F33','#C52F33','#C52F33','#C52F33']},
+				legend: 'none',	
+				backgroundColor: {fill:'transparent',stroke:'#ffffff' ,strokeWidth:0 },		
+				datalessRegionColor: 'transparent',
+				displayMode: 'regions', 
+				sizeAxis: {minValue: 1, maxValue:27,minSize:10,  maxSize: 10},
+				enableRegionInteractivity: 'true',
+				resolution: 'provinces',
+				region:'BR',width:'600',
+				height:'400',
+				tooltip: {textStyle: {color: '#555555'}, trigger:'focus'}	
+					
+			  };var geochart = new google.visualization.GeoChart(
+				  document.getElementById('map_canvas_1'));
+			google.visualization.events.addListener(geochart, 'select', function() {
+			var selection = geochart.getSelection();
+			
+				if (selection.length == 1) {
+					var selectedRow = selection[0].row;
+					var selectedRegion = data.getValue(selectedRow, 0);
+		
+			document.getElementById('imap1message').innerHTML = ivalue_1[selectedRegion];             }
+			  });
+			geochart.draw(data, options);
+			}
+			google.setOnLoadCallback(drawVisualization);
+  </script>
+              <div class="text_column content_element ">
+                <div class="wrapper">
+                  <div id='map_canvas'>
+                    <div id='map_canvas_1' class='i_world_map'></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="wf-cell wf-span-6 column column_container ">
+              <div class="text_column content_element ">
+                <div class="wrapper">
+                  <div id="imap1message">
+                    <h3>Paraná</h3>
+                    <p><strong>NOME</strong><br />
+                      TEL<br />
+                      EMAIL<br />
+                      END<br />
+                    </p>
+                    <hr />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>
